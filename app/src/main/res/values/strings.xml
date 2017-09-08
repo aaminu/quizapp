@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="answer">I<sup>2</sup>R</string>
+
+
+    <!-- Category name for Civil [CHAR LIMIT=20] -->
+    <string name="category_civil">Civil</string>
+
+    <!-- Category name for the vocabulary words for Electrical [CHAR LIMIT=20] -->
+    <string name="category_electrical">Electrical</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_mechanical">Mechanical</string>
+
+</resources>

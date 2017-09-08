@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp.Electrical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:text="1."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The following resistors (3Ω, 4Ω, 5Ω) are placed in parallel in a closed circuit. Find the effective resistance of the circuit"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/q1CorrectAnswer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="8dp"
+                            android:text="1.3Ω" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="8dp"
+                            android:text="1.1Ω"
+                            android:textColor="@android:color/black" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="8dp"
+                            android:text="4Ω"
+                            android:textColor="@android:color/black" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="8dp"
+                            android:text="1.7Ω"
+                            android:textColor="@android:color/black" />
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:text="2."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The following resistors (3Ω, 4Ω, 5Ω) are placed in series in a closed circuit. Find the effective resistance of the circuit"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="8dp"
+                            android:text="9Ω" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="8dp"
+                            android:text="10Ω"
+                            android:textColor="@android:color/black" />
+
+                        <RadioButton
+                            android:id="@+id/q2CorrectAnswer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="8dp"
+                            android:text="12Ω"
+                            android:textColor="@android:color/black" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="8dp"
+                            android:text="13Ω"
+                            android:textColor="@android:color/black" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:text="3."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Which of the is the following is the formula for Power "
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/q3Answer1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="8dp"
+                        android:text="IV" />
+
+                    <CheckBox
+                        android:id="@+id/q3Answer2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="8dp"
+                        android:text="IR"
+                        android:textColor="@android:color/black" />
+
+                    <CheckBox
+                        android:id="@+id/q3Answer3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="8dp"
+                        android:text="@string/answer"
+                        android:textColor="@android:color/black" />
+
+                    <CheckBox
+                        android:id="@+id/q3Answer4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="8dp"
+                        android:text="VR"
+                        android:textColor="@android:color/black" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:text="4."
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The potential difference between two points on conductor is called? "
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/q4CorrectAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Answer" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape"
+                android:id="@+id/submitQuiz"
+                android:text="SUBMIT"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="0dp"
+                android:background="@drawable/shape"
+                android:id="@+id/resetButton"
+                android:text="Reset"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="0dp"
+            android:background="@drawable/shape"
+            android:id="@+id/homeButton"
+            android:text="RETURN TO HOME PAGE"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>

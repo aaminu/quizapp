@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#764254</color>
+
+
+    <!-- Background color for app -->
+    <color name="app_background">#fefefe</color>
+
+    <!-- Background color for the civil engineering -->
+    <color name="category_civil">#1e8a7a</color>
+    <color name="category_civilDark">#80CBC4</color>
+    <color name="category_civilAccent">#FF9800</color>
+
+    <!-- Background color for the electrical engineering -->
+    <color name="category_electrical">#103e87</color>
+    <color name="category_electricalDark">#5C6BC0</color>
+    <color name="category_electricalAccent">#BDBDBD</color>
+
+    <!-- Background color for the mechanical engineering -->
+    <color name="category_mechanical">#28171b</color>
+    <color name="category_mechanicalDark">#795548</color>
+    <color name="category_mechanicalAccent">#64FFDA</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_phrases">#16AFCA</color>
+</resources>
